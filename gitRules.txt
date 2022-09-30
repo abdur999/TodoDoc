@@ -1,0 +1,109 @@
+*To Check git version
+git --version
+
+*Git update
+git clone https://github.com/git/git
+
+*Setting git email and userid
+git config --global user.email abdursrahims@icloud.com
+git config --global user.name abdur999
+
+*Create Git 
+*Visit to the path
+cd 'path'
+*init
+git init
+
+*Check git status
+git status
+
+*Git add files
+git add --all
+
+*Remove file from git
+git rm Readme/readme.md.rtf
+
+*Commit the changes
+git commit -m "swift Data Structure, Threading, Collections, Generics, Language Specific things"
+
+*Git add files
+git add *.*
+Git add *.txt
+
+*Git add everything including files and folders
+git add .
+
+*git remote add origin
+*Create a repository in your git account and copy the url (https/ssh)
+git remote add origin https://github.com/abdur999/SwiftAlgoDsTestCaseGeneric.git
+
+*or When we need to change the url
+git remote set-url origin git@github.com:abdur999/SwiftAlgoDsTestCaseGeneric.git
+git branch -M main
+
+*git push
+git push -u origin main
+
+*git log
+git log
+
+* git help 
+Git --help
+
+*git ignore
+*create .gitignore (in the top directory)
+touch .gitignore
+open -a TextEdit .gitignore  
+*add the necessary files and save it will ignore that file
+
+*add a file in git
+git add .gitignore
+
+
+
+
+
+*get all ssh key 
+ls -al ~/.ssh
+
+*add ssh key
+ssh-keygen -t ed25519 -C "abdursrahims@icloud.com"
+
+*Don't add any file name by the way it save in the same directory
+*Don't add any passphrase
+
+*for check run.  The command
+ls -al ~/.ssh
+*or
+sudo ~/.ssh
+*or
+cd /Users/abdurrahim/.ssh
+ls
+
+*open file in Mac with textedit
+open -a TextEdit id_ed25519.pub
+
+*ssh key generation command
+ssh-keygen -t ed25519 -C "abdursrahims@icloud.com"
+*don't put any path it will create default path and save
+
+*don't put any pass phrase it ask pass phrase for two times
+
+*to check authentication
+ssh -T git@github.com
+
+*Are you sure you want to continue connecting (yes/no/[fingerprint])? Type
+yes
+
+*NEW project add into git below commands until space continued
+cd /Users/abdurrahim/Downloads/UniversitiesGlobal
+pod init
+git remote add origin git@github.com:abdur999/MVVMDemo.git
+git add --all 
+git commit -m "MVVM Structure"
+git branch -M main
+git push -u origin main
+
+
+
+ 
