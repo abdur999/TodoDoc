@@ -109,7 +109,8 @@ git push -u origin main
 git push --force origin main 
 
 
-*Changes not staged for commit:
+*Changes not staged for commit:(commit all files)
+git commit -a
 
 
 
