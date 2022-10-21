@@ -1,2 +1,6 @@
 *Xcode settings for debug Data Race Condition
 Edit Scheme -> (Select) Run -> Diagonostic -> Check Thread Sanitizer 
+
+
+*add async to a function
+Select the function name -> right click - > refactor -> convert function to async
