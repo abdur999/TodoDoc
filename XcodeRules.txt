@@ -1,0 +1,2 @@
+*Xcode settings for debug Data Race Condition
+Edit Scheme -> (Select) Run -> Diagonostic -> Check Thread Sanitizer 
