@@ -1,0 +1,13 @@
+
+#Create. A file in macConfig will be the filename 
+touch macConfig 
+
+#ignore the local files
+touch .gitignore
+
+#Ignore all text files
+*.txt
+
+# Ignore Mac system files
+.DS_store
+
